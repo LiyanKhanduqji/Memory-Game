@@ -84,13 +84,13 @@ body {
   border-radius: 20px;
 }
 .memory-game-blocks .game-block .back {
-  background-color: #0e4662;
+  background-color: #f44336;
   transform: rotateY(180deg);
 }
 .memory-game-blocks .game-block .back img {
-  width: 140px;
-  height: 140px;
-  margin: 30px auto 0;
+  width: 150px;
+  margin: 15px auto;
+  height: 120px;
 }
 .memory-game-blocks .game-block .face {
   position: absolute;

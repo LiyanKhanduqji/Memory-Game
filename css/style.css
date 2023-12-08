@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Silkscreen", sans-serif;
-  background-image: url("/images/among.jpg");
+  background-image: url("../images/among.jpg");
 }
 .control-buttons {
   position: fixed;
@@ -16,7 +16,7 @@ body {
   height: 100%;
   z-index: 2;
   /* background-color: rgba(24, 119, 163, 0.9); */
-  background-image: url("/images/startgame.jpg");
+  background-image: url("../images/startgame.jpg");
   background-size: cover;
 }
 .control-buttons span {

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Playpen+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Raleway:wght@400;700&family=Saira+Extra+Condensed:wght@500;600;700;800&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Playpen+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Raleway:wght@400;700&family=Russo+One&family=Saira+Extra+Condensed:wght@500;600;700;800&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start splash screen -->
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <!-- End splash screen -->
+    <!-- Start Info label -->
+    <div class="info-container">
+      <div class="name">Hello : <span></span></div>
+      <div class="tries">Wrong Tries : <span>0</span></div>
+    </div>
+    <!-- End Info label -->
+
+    <!-- Start cards container section -->
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="bootstrap">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/bootstrap.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="bootstrap">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/bootstrap.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="c++">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/c++.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="c++">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/c++.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="charachter">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/charachter.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="charachter">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/charachter.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="illustration">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/illustration.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="illustration">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/illustration.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="java">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/java.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="java">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/java.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="monster">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/monster.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="monster">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/monster.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="mysql">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/mysql.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="mysql">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/mysql.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="node">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/node.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="node">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/node.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="office">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/office.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="office">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/office.png" alt="" />
+        </div>
+      </div>
+
+      <div class="game-block" data-technology="work">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/work.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="work">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/work.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End cards container section -->
+    <!-- Start Audio -->
+    <audio id="success" src="audio/win.wav" preload="auto"></audio>
+    <audio id="fail" src="audio/lose.wav" preload="auto"></audio>
+    <audio id="start" src="audio/start.wav" preload="auto"></audio>
+    <!-- End Audio -->
+    <script src="script.js"></script>
+  </body>
+</html>
